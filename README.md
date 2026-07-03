@@ -1,16 +1,35 @@
-# React + Vite
+# EarlyBird HR Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EarlyBird HR is a robust, full-stack HR management platform built to enhance organizational transparency and operational efficiency. It provides a centralized ecosystem for managing attendance, leave requests, employee records, and workforce analytics.
 
-Currently, two official plugins are available:
+## Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🏢 Multi-Role Architecture
+*   **Executive Portal**: High-level KPI dashboards, departmental workforce analytics, and super-admin access management.
+*   **HR Portal**: Centralized command center for attendance tracking, leave approval queues, dispute resolution, and employee directory management.
+*   **Employee Portal**: Self-service interface for filing leave requests, monitoring attendance logs, and managing individual profile settings.
 
-## React Compiler
+### 📊 Intelligent Data Management
+*   **Dynamic Spreadsheet Logs**: Visual attendance logs featuring a spreadsheet-style interface, sortable by month and year.
+*   **Dispute Resolution Workflow**: Automated system for handling attendance discrepancies with integrated file-proof uploads and status tracking.
+*   **Automated Onboarding**: Secure, automated credential provisioning for new hires, including temporary password generation and direct directory integration.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🛡️ Security & Reliability
+*   **Role-Based Access Control (RBAC)**: Fine-grained security policies ensuring appropriate data visibility for different organizational levels.
+*   **Data Integrity**: Automated system logic to ensure data accuracy and auditability for HR operations.
 
-## Expanding the ESLint configuration
+## Tech Stack
+*   **Frontend**: React.js with Vite
+*   **Styling**: Tailwind CSS
+*   **Backend & Auth**: Supabase (Database, Authentication, Storage)
+*   **Visualizations**: Recharts
+*   **Utilities**: Lucide React, jsPDF
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+1. **Clone the repository.**
+2. **Install dependencies**: `npm install`
+3. **Configure Environment Variables**:
+   Create a `.env` file and add your Supabase credentials:
+   ```env
+   VITE_SUPABASE_URL=your_supabase_url
+   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
