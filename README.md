@@ -2,6 +2,8 @@
 
 EarlyBird HR is a robust, full-stack HR management platform built to enhance organizational transparency and operational efficiency. It provides a centralized ecosystem for managing attendance, leave requests, employee records, and workforce analytics.
 
+CHECK IT OUT: https://early-bird-hr.vercel.app/
+
 ## Key Features
 
 ### 🏢 Multi-Role Architecture
