@@ -35,3 +35,18 @@ CHECK IT OUT: https://early-bird-hr.vercel.app/
    ```env
    VITE_SUPABASE_URL=your_supabase_url
    VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+### Project Screenshots
+
+<img width="1918" height="862" alt="image" src="https://github.com/user-attachments/assets/70b14694-58da-40b0-9f85-59b66162b3d2" />
+<img width="1907" height="850" alt="image" src="https://github.com/user-attachments/assets/1c5de55a-3afa-4a26-9b02-24d72a5655c3" />
+<img width="1885" height="842" alt="image" src="https://github.com/user-attachments/assets/45686063-e0e3-4bdf-8ce5-9c9d208ce7b3" />
+<img width="1873" height="850" alt="image" src="https://github.com/user-attachments/assets/e9ef26a6-19da-4ec1-84bf-946bdacf4eeb" />
+<img width="1906" height="852" alt="image" src="https://github.com/user-attachments/assets/6e14b61d-270b-4414-ad5f-9d11afc5c2a7" />
+<img width="972" height="672" alt="image" src="https://github.com/user-attachments/assets/929705bd-d6a3-4ce2-8311-a6464003c159" /> 
+
+
+
+
+
+
